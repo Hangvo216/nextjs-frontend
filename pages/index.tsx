@@ -11,7 +11,7 @@ const Home = () => {
         const data1 = await res1.json();
         console.log(data1)
 
-        const res = await fetch('/image');
+        const res = await fetch('https://fastapi-backend-test.herokuapp.com/image');
         const data = await res.json();
         console.log(data)
 
